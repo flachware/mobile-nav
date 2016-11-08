@@ -1,0 +1,42 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Mobile Navigation</title>
+    <link rel="stylesheet" href="assets/stylesheets/main.css">
+    <script src="https://code.jquery.com/jquery-3.1.1.js" integrity="sha256-16cdPddA6VdVInumRGo6IbivbERE8p7CQR3HzTBuELA=" crossorigin="anonymous"></script>
+    <script src="assets/javascripts/app.js"></script>
+  </head>
+  <body>
+    <div class="viewport current-1">
+      <header>
+        <div class="title title-1">
+          <div class="css-truncation">Title 1</div>
+        </div>
+        <div class="title title-2">
+          <div class="css-truncation">Title 2</div>
+        </div>
+        <div class="title title-3">
+          <div class="css-truncation">Title 3 is very very long</div>
+        </div>
+      </header>
+      <div class="levels">
+        <ul class="level level-1">
+          <li>
+            <h1 id="goto-level-2">1</h1>
+            <ul class="level level-2">
+              <li>
+                <h1 id="goto-level-3">2</h1>
+                <ul class="level level-3">
+                  <li>
+                    <h1>3</h1>
+                  </li>
+                </ul>
+              </li>
+            </ul>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </body>
+</html>
